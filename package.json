@@ -1,0 +1,33 @@
+{
+  "name": "badgist",
+  "version": "1.0.0",
+  "description": "CLI to add badges to a readme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/badgist.git"
+  },
+  "keywords": [
+    "badges",
+    "cli",
+    "node"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/badgist/issues"
+  },
+  "homepage": "https://github.com/gakimball/badgist#readme",
+  "dependencies": {
+    "js-yaml": "^3.5.4",
+    "string-template": "^1.0.0",
+    "yargs": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
